@@ -1,6 +1,6 @@
 ﻿#include <iostream>
 #include <time.h>
-
+/*there is few comment present */
 using namespace std;
 
 int main()
