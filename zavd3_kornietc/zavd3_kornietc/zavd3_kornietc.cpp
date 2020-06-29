@@ -4,7 +4,7 @@ using namespace std;
 
 int main() {
 	int numberRow[10];
-	int amt = 1;
+	int amt = 0;
 
 	srand(time(NULL));
 
@@ -17,10 +17,11 @@ int main() {
 	{
 		cout << numberRow[i] << " ";
 	}
-	for (int i = 0; i < 10; i++)
+	for (int i = 0; i < 8; i++)
 	{
-		if (numberRow[i] < numberRow[i + 1] > numberRow[i + 2]) {
+		if (numberRow[i] < numberRow[i + 1] && numberRow[i + 1] > numberRow[i + 2]) {
 			amt++;
+			
 		}
 	}
 	cout << endl << amt << " tooths";
