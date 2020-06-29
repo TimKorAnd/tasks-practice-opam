@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 #include <time.h>
 using namespace std;
 
@@ -23,5 +23,5 @@ int main() {
 			amt++;
 		}
 	}
-	cout << endl << amt;
+	cout << endl << amt << " tooths";
 }
