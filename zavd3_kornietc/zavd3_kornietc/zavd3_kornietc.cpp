@@ -4,7 +4,7 @@ using namespace std;
 
 int main() {
 	int numberRow[10];
-	int amt = 0;
+	int amt = 1;
 
 	srand(time(NULL));
 
